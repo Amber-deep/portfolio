@@ -43,7 +43,7 @@
         /* bottom: -58px; */
         transition: all 0.2s ease-in;
     }
-    .position-nav.sticky{
+    .position-nav.sticky{   
         position: fixed;
         top: 0px;
     }
