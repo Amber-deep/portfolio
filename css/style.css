@@ -38,11 +38,30 @@
     .icon-clr{
         font-size: 35px;
     }
+    .position-nav{
+        position: absolute;
+        /* bottom: -58px; */
+        transition: all 0.2s ease-in;
+    }
+    .position-nav.sticky{
+        position: fixed;
+        top: 0px;
+    }
     
 }
 @media screen and (max-width:599px) {
     .icon-clr{
-        font-size: 20px;
+        font-size: 23px;
+    }
+    .position-nav{
+        position: absolute;
+        /* bottom: -58px; */
+        transition: all 0.2s ease-in;
+    }
+    .position-nav.sticky{
+        position: fixed;
+        /* top: 0px; */
+        bottom: 0px;
     }
     
 }
@@ -56,15 +75,14 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.position-nav{
+/* .position-nav{
     position: absolute;
-    /* bottom: -58px; */
     transition: all 0.2s ease-in;
 }
 .position-nav.sticky{
     position: fixed;
     top: 0px;
-}
+} */
 .borderr{
     border-radius: 7px !important;
     box-shadow: 1px 1px 25px rgb(131, 129, 129);
